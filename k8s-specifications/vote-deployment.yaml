@@ -21,3 +21,5 @@ spec:
         ports:
         - containerPort: 80
           name: vote
+        securityContext:
+          runAsUser: 1
